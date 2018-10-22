@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#12886d</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="textColor">#ffffff</color>
+    <color name ="color_de_fundo_botao">#33ffffff</color>
+    <color name = "color_de_fundo_dos_icons">#ffcc00</color>
+</resources>

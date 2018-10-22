@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Act_criandoconta44"
+    android:background="@drawable/fundo">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="157dp"
+        android:layout_height="118dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:contentDescription="TODO"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.100000024"
+        app:srcCompat="@drawable/logobranca" />
+
+    <TextView
+        android:id="@+id/txtCriandoConta44"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="50dp"
+        android:text="@string/txtCriandoConta4"
+        android:textColor="@color/textColor"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+
+    <EditText
+        android:id="@+id/entry_criandoconta44_rua"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="16dp"
+        android:background="@color/color_de_fundo_botao"
+        android:drawableLeft="@drawable/ic_item_criandoconta3_email"
+        android:drawablePadding="10dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="@string/entry_criandoconta44_rua"
+        android:textColor="@color/textColor"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtCriandoConta44" />
+
+    <EditText
+        android:id="@+id/entry_criandoconta44_bairro"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="8dp"
+        android:background="@color/color_de_fundo_botao"
+        android:drawableLeft="@drawable/ic_item_criandoconta3_email"
+        android:drawablePadding="10dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="@string/entry_criandoconta44_bairro"
+        android:textColor="@color/textColor"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/entry_criandoconta44_rua" />
+
+    <EditText
+        android:id="@+id/entry_criandoconta44_numero"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="8dp"
+        android:background="@color/color_de_fundo_botao"
+        android:drawableLeft="@drawable/ic_item_criandoconta3_email"
+        android:drawablePadding="10dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="@string/entry_criandoconta44_numero"
+        android:textColor="@color/textColor"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/entry_criandoconta44_bairro" />
+
+    <EditText
+        android:id="@+id/entry_criandoconta44_complemento"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="8dp"
+        android:background="@color/color_de_fundo_botao"
+        android:drawableLeft="@drawable/ic_item_criandoconta3_email"
+        android:drawablePadding="10dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="@string/entry_criandoconta44_complemento"
+        android:textColor="@color/textColor"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/entry_criandoconta44_numero" />
+
+    <Button
+        android:id="@+id/btn_criandoconta44_voltar"
+        android:layout_width="140dp"
+        android:layout_height="45dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="8dp"
+        android:background="@color/color_de_fundo_botao"
+        android:onClick="voltar"
+        android:text="@string/btn_criandoconta1_voltar"
+        android:textColor="@color/textColor"
+        app:layout_constraintEnd_toEndOf="@+id/entry_criandoconta44_complemento"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/entry_criandoconta44_complemento"
+        app:layout_constraintTop_toBottomOf="@+id/entry_criandoconta44_complemento" />
+
+    <Button
+        android:id="@+id/btn_criandoconta44_proximo"
+        android:layout_width="140dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="8dp"
+        android:background="@color/color_de_fundo_botao"
+        android:onClick="proximo"
+        android:text="@string/btn_criandoconta1_proximo"
+        android:textColor="@color/textColor"
+        app:layout_constraintEnd_toEndOf="@+id/entry_criandoconta44_complemento"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/entry_criandoconta44_complemento"
+        app:layout_constraintTop_toBottomOf="@+id/entry_criandoconta44_complemento" />
+
+
+
+</android.support.constraint.ConstraintLayout>

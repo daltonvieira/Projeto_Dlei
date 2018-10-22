@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Act_criandoconta2"
+    android:background="@drawable/fundo">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="157dp"
+        android:layout_height="118dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:contentDescription="TODO"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.16000003"
+        app:srcCompat="@drawable/logobranca" />
+
+    <TextView
+        android:id="@+id/txtCriandoConta44"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="60dp"
+        android:text="@string/txt_criando_conta1"
+        android:textColor="@color/textColor"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+
+    <TextView
+        android:id="@+id/txt_criandoconta2_sexo"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="16dp"
+        android:background="@color/color_de_fundo_botao"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:drawableLeft="@drawable/ic_item_criandoconta2_sexo"
+        android:drawablePadding='10dp'
+        android:text="@string/entry_criandoconta1_nome"
+        android:textColor="@color/textColor"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.18"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtCriandoConta44" />
+
+    <RadioButton
+        android:id="@+id/criandoConta2_radiobutton_masculino"
+        android:layout_width="75dp"
+        android:layout_height="50dp"
+        android:background="@color/color_de_fundo_botao"
+        android:text="@string/criandoConta2_radiobutton_masculino"
+        android:textColor="@color/textColor"
+        app:layout_constraintStart_toEndOf="@+id/txt_criandoconta2_sexo"
+        app:layout_constraintTop_toTopOf="@+id/txt_criandoconta2_sexo" />
+
+    <RadioButton
+        android:id="@+id/criandoConta2_radiobutton_feminino"
+        android:layout_width="75dp"
+        android:layout_height="50dp"
+        android:background="@color/color_de_fundo_botao"
+        android:text="@string/criandoConta2_radiobutton_feminino"
+        android:textColor="@color/textColor"
+        app:layout_constraintStart_toEndOf="@+id/criandoConta2_radiobutton_masculino"
+        app:layout_constraintTop_toTopOf="@+id/criandoConta2_radiobutton_masculino" />
+
+    <EditText
+        android:id="@+id/entry_criandoconta2_data"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="8dp"
+        android:background="@color/color_de_fundo_botao"
+        android:drawableLeft="@drawable/ic_item_criandoconta2_data"
+        android:drawablePadding='10dp'
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="@string/entry_criandoconta2_data"
+        android:textColor="@color/textColor"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt_criandoconta2_sexo" />
+
+    <Button
+        android:id="@+id/btn_criandoconta2_voltar"
+        android:layout_width="140dp"
+        android:layout_height="50dp"
+        android:background="@color/color_de_fundo_botao"
+        android:onClick="voltar"
+        android:text="@string/btn_criandoconta1_voltar"
+        android:textColor="@color/textColor"
+        app:layout_constraintEnd_toEndOf="@+id/entry_criandoconta2_data"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/entry_criandoconta2_data"
+        app:layout_constraintTop_toTopOf="@+id/btn_criandoconta2_proximo" />
+
+    <Button
+        android:id="@+id/btn_criandoconta2_proximo"
+        android:layout_width="140dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="8dp"
+        android:background="@color/color_de_fundo_botao"
+        android:onClick="proximo"
+        android:text="@string/btn_criandoconta1_proximo"
+        android:textColor="@color/textColor"
+        app:layout_constraintEnd_toEndOf="@+id/entry_criandoconta2_data"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/entry_criandoconta2_data"
+        app:layout_constraintTop_toBottomOf="@+id/entry_criandoconta2_data" />
+
+</android.support.constraint.ConstraintLayout>
