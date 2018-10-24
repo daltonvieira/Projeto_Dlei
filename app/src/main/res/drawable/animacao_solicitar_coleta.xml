@@ -2,9 +2,6 @@
 <animation-list xmlns:android="http://schemas.android.com/apk/res/android" android:oneshot="false">
     <item android:drawable="@drawable/anima_1_1" android:duration="580"></item>
     <item android:drawable="@drawable/anima_2_1" android:duration="580"></item>
+    <item android:drawable="@drawable/anima_2_3" android:duration="580"></item>
     <item android:drawable="@drawable/anima_3_1" android:duration="580"></item>
-
-
-
-
 </animation-list>
