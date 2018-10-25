@@ -24,6 +24,7 @@ public class Act_telaprincipal extends AppCompatActivity
         Fragment_MeuPerfil.OnFragmentInteractionListener,
         Fragment_Historico_De_Coleta.OnFragmentInteractionListener,
         Fragment_Contato.OnFragmentInteractionListener,
+        Fragmento_Principal.OnFragmentInteractionListener,
         Fragment_Parceiros.OnFragmentInteractionListener{
 
     @Override
@@ -73,6 +74,9 @@ public class Act_telaprincipal extends AppCompatActivity
         } else if (id== R.id.nav_inicio) {
             //Intent it = new Intent(getApplicationContext(), Act_telaprincipal.class);
             //startActivity(it);
+            fragment = new Fragmento_Principal();
+            FragmentoSelecionado = true;
+
 
         } else if (id == R.id.nav_historico) {
             fragment = new Fragment_Historico_De_Coleta();

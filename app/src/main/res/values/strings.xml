@@ -69,4 +69,10 @@
     <string name="fragmento_contato_txt_sobrenome">Sobrenome</string>
     <string name="fragmento_contato_txt_assunto">Assunto</string>
     <string name="fragmento_contato_txt">Mensagem</string>
+    <string name="fragmento_historico_txt_catador">Catador:</string>
+    <string name="fragmento_historico_txt_id">ID:</string>
+    <string name="fragmento_historico_txt_pontos">Pontos Obtidos:</string>
+    <string name="fragmento_historico_txt_data">Data:</string>
+
+
 </resources>
