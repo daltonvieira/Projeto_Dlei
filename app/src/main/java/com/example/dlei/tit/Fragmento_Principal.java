@@ -111,6 +111,7 @@ public class Fragmento_Principal extends Fragment {
 
 
     public void solicitarcoleta(View view){
-
+        Intent it = new Intent(getActivity(), Act_Solicitarcoleta.class);
+        startActivity(it);
     }
 }

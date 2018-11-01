@@ -43,6 +43,8 @@ public class Act_telaprincipal extends AppCompatActivity
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
 
+        Fragment fragment = new Fragmento_Principal();
+        getSupportFragmentManager() .beginTransaction() .replace(R.id.telaprincipal, fragment) .commit();
     }
 
     @Override
@@ -97,8 +99,6 @@ public class Act_telaprincipal extends AppCompatActivity
 
         if (FragmentoSelecionado){
             getSupportFragmentManager() .beginTransaction() .replace(R.id.telaprincipal, fragment) .commit();
-            ConstraintLayout ocultar = (ConstraintLayout) findViewById(R.id.tela);
-            ocultar.setVisibility(View.INVISIBLE);
             getSupportActionBar().setBackgroundDrawable(getResources().getDrawable(R.drawable.fundo));
         }
 
@@ -112,8 +112,7 @@ public class Act_telaprincipal extends AppCompatActivity
     }
 
     public void solicitarcoleta(View view){
-        Intent it = new Intent(getApplicationContext(), Act_Solicitarcoleta.class);
-        startActivity(it);
+
     }
 
 }
