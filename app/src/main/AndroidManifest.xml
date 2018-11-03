@@ -11,26 +11,28 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Act_bemvindo">
+        <activity android:name=".Act_bemvindo" android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Act_Criandoconta1" />
-        <activity android:name=".Act_criandoconta2" />
-        <activity android:name=".Act_criandoconta3" />
-        <activity android:name=".Act_criandoconta44" />
-        <activity android:name=".Act_criandoconta5" />
-        <activity android:name=".Act_teladelogin" />
-        <activity android:name=".Act_esquecisenha" />
-        <activity android:name=".Act_esquecisenha2" />
+        <activity android:name=".Act_Criandoconta1"  android:screenOrientation="portrait"  />
+        <activity android:name=".Act_criandoconta2"  android:screenOrientation="portrait" />
+        <activity android:name=".Act_criandoconta3"  android:screenOrientation="portrait" />
+        <activity android:name=".Act_criandoconta44" android:screenOrientation="portrait" />
+        <activity android:name=".Act_criandoconta5"  android:screenOrientation="portrait" />
+        <activity android:name=".Act_teladelogin"    android:screenOrientation="portrait"/>
+        <activity android:name=".Act_esquecisenha"   android:screenOrientation="portrait" />
+        <activity android:name=".Act_esquecisenha2"  android:screenOrientation="portrait"/>
         <activity
+            android:screenOrientation="portrait"
             android:name=".Act_telaprincipal"
             android:label="@string/title_activity_act_telaprincipal"
             android:theme="@style/AppTheme" />
         <activity
+            android:screenOrientation="portrait"
             android:name=".Act_Solicitarcoleta"
             android:label="@string/title_activity_act__solicitarcoleta"
             android:theme="@style/AppTheme"

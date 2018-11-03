@@ -77,7 +77,10 @@ public class Act_telaprincipal extends AppCompatActivity
             //Intent it = new Intent(getApplicationContext(), Act_telaprincipal.class);
             //startActivity(it);
             fragment = new Fragmento_Principal();
-            FragmentoSelecionado = true;
+            getSupportFragmentManager() .beginTransaction() .replace(R.id.telaprincipal, fragment) .commit();
+            getSupportActionBar().setBackgroundDrawable(getResources().getDrawable(R.drawable.cabecalho_telaprincipal));
+            getSupportActionBar().setTitle("");
+
 
 
         } else if (id == R.id.nav_historico) {
