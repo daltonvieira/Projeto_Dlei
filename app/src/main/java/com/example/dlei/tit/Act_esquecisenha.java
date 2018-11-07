@@ -17,10 +17,12 @@ public class Act_esquecisenha extends AppCompatActivity {
     public void voltar(View view){
         Intent it = new Intent(getApplicationContext(), Act_teladelogin.class);
         startActivity(it);
+        finish();
     }
 
     public void enviar(View view){
         Intent it = new Intent(getApplicationContext(), Act_esquecisenha2.class);
         startActivity(it);
+        finish();
     }
 }

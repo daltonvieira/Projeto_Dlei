@@ -73,6 +73,8 @@
     <string name="fragmento_historico_txt_id">ID:</string>
     <string name="fragmento_historico_txt_pontos">Pontos Obtidos:</string>
     <string name="fragmento_historico_txt_data">Data:</string>
+    <string name="btn_Qrcode_qrcode">Scan Qrcode</string>
+    <string name="txt_Qrcode">Localize na sua etiqueta o Qrcode como na imagem e clicando no botão abaixo escaneie o código QR </string>
 
 
 </resources>

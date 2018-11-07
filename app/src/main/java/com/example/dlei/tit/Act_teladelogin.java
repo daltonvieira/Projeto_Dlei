@@ -16,15 +16,19 @@ public class Act_teladelogin extends AppCompatActivity {
     public void voltar(View view){
         Intent it = new Intent(getApplicationContext(), Act_teladelogin.class);
         startActivity(it);
+        finish();
     }
 
     public void proximo(View view){
         Intent it = new Intent(getApplicationContext(), Act_telaprincipal.class);
         startActivity(it);
+        finish();
+
     }
 
     public void txtlinkado(View view){
         Intent it = new Intent(getApplicationContext(), Act_esquecisenha.class);
         startActivity(it);
+        finish();
     }
 }

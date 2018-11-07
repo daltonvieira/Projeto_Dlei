@@ -17,10 +17,12 @@ public class Act_Criandoconta1 extends AppCompatActivity {
     public void voltar(View view){
         Intent it = new Intent(getApplicationContext(), Act_bemvindo.class);
         startActivity(it);
+        finish();
     }
 
     public void proximo(View view){
         Intent it = new Intent(getApplicationContext(), Act_criandoconta2.class);
         startActivity(it);
+        finish();
     }
 }

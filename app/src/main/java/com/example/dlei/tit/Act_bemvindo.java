@@ -17,10 +17,12 @@ public class Act_bemvindo extends AppCompatActivity {
     public void ir_para_criar(View view){
         Intent it = new Intent(getApplicationContext(), Act_Criandoconta1.class);
         startActivity(it);
+        finish();
     }
 
     public void txtlinkado(View view){
         Intent it = new Intent(getApplicationContext(), Act_teladelogin.class);
         startActivity(it);
+        finish();
     }
 }
