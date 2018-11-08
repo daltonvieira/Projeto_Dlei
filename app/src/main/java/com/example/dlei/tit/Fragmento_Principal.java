@@ -11,6 +11,7 @@ import android.view.ViewGroup;
 import android.widget.Button;
 
 
+
 public class Fragmento_Principal extends Fragment {
 
 
@@ -29,7 +30,7 @@ public class Fragmento_Principal extends Fragment {
             @Override
             public void onClick(View v) {
                 Intent it;
-                it = new Intent(getActivity(), Qrcode.class);
+                it = new Intent(getActivity(), Act_Solicitarcoleta.class);
                 startActivity(it);
             }
         });

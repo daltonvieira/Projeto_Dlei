@@ -55,7 +55,8 @@
             android:parentActivityName=".Act_telaprincipal"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme" />
-        <activity android:name=".Qrcode"></activity>
+        <activity android:name=".Qrcode" />
+        <activity android:name=".Act_Informacao_catador"></activity>
     </application>
 
 </manifest>
