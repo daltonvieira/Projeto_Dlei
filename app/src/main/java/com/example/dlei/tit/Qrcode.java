@@ -23,6 +23,7 @@ public class Qrcode extends AppCompatActivity {
         getSupportActionBar().setTitle("");
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
+
         Button btnScan = (Button) findViewById(R.id.btn_Qrcode_qrcode);
         final Activity activity = this;
         btnScan.setOnClickListener(new View.OnClickListener() {

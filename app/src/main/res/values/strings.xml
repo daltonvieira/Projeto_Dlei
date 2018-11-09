@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">TiT</string>
+    <string name="app_name">Take Trash</string>
     <string name="texto_bemvindo">Olá, seja bem vindo!</string>
     <string name="texto_bemvindo2">Vamos criar sua conta?</string>
     <string name="button_criar">Criar</string>
@@ -44,8 +44,8 @@
     <string name="title_activity_act_telaprincipal"></string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
-    <string name="nav_header_title">Nome do Usuário</string>
-    <string name="nav_header_subtitle">ID:</string>
+    <string name="nav_header_title">Maresa Paiva</string>
+    <string name="nav_header_subtitle">ID: 002365</string>
     <string name="nav_header_desc">Navigation header</string>
     <string name="action_settings">Settings</string>
     <string name="txt_bemvindo_linkado">Já sou cadastrado.</string>
@@ -55,7 +55,7 @@
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="btn_criandoconta5_selecionarimg">Selecionar Imagem</string>
     <string name="tela_principal_btn_Solicitarcoleta">Solicitar Coleta</string>
-    <string name="tela_meu_perfil_btn_pegar_foto">Selecionar Foto</string>
+    <string name="tela_meu_perfil_btn_pegar_foto">Alterar Foto</string>
     <string name="title_activity_act__solicitarcoleta">Act_Solicitarcoleta</string>
     <string name="btn_act_solicitarcoleta_cancelar">Cancelar</string>
     <string name="fragment_meuperfil_nome">Nome</string>
@@ -75,6 +75,14 @@
     <string name="fragmento_historico_txt_data">Data:</string>
     <string name="btn_Qrcode_qrcode">Scan Qrcode</string>
     <string name="txt_Qrcode">Localize na sua etiqueta o Qrcode como na imagem e clicando no botão abaixo escaneie o código QR </string>
+    <string name="Act_Informacao_catador_txt1">Catador responsável pela coleta:</string>
+    <string name="Act_Informacao_catador_txt_rua">Rua:</string>
+    <string name="Act_Informacao_catador_txt_bairro">Bairro:</string>
+    <string name="Act_Informacao_catador_txt_numero">Número:</string>
+    <string name="Act_Informacao_catador_txt_">Contato:</string>
+    <string name="Act_Informacao_catador_txt_endereco">Endereço de Retirada</string>
+    <string name="Act_Informacao_catador_btn_voltar">Voltar</string>
+    <string name="fragment_principal_btn_trocar_pontos">Trocar Pontos</string>
 
 
 </resources>

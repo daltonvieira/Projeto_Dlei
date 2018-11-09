@@ -26,7 +26,8 @@ public class Act_telaprincipal extends AppCompatActivity
         Fragment_Historico_De_Coleta.OnFragmentInteractionListener,
         Fragment_Contato.OnFragmentInteractionListener,
         Fragmento_Principal.OnFragmentInteractionListener,
-        Fragment_Parceiros.OnFragmentInteractionListener{
+        Fragment_Parceiros.OnFragmentInteractionListener,
+        Fragment_Notificacao.OnFragmentInteractionListener{
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -46,6 +47,8 @@ public class Act_telaprincipal extends AppCompatActivity
 
         Fragment fragment = new Fragmento_Principal();
         getSupportFragmentManager() .beginTransaction() .replace(R.id.telaprincipal, fragment) .commit();
+
+
     }
 
     @Override
@@ -62,6 +65,8 @@ public class Act_telaprincipal extends AppCompatActivity
     @Override
     public boolean onNavigationItemSelected(MenuItem item) {
         // Handle navigation view item clicks here.
+
+
         int id = item.getItemId();
 
         Fragment fragment = null;
@@ -99,8 +104,12 @@ public class Act_telaprincipal extends AppCompatActivity
             FragmentoSelecionado = true;
             //getSupportActionBar().setBackgroundDrawable(getResources().getDrawable(R.drawable.fundo));
             getSupportActionBar().setTitle("Parceiros");
-        }
+        } else if (id == R.id.nav_notificacao) {
+            fragment = new Fragment_Notificacao();
+            FragmentoSelecionado = true;
+            getSupportActionBar().setTitle("Notificação");
 
+        }
         if (FragmentoSelecionado){
             getSupportFragmentManager() .beginTransaction() .replace(R.id.telaprincipal, fragment) .commit();
             getSupportActionBar().setBackgroundDrawable(getResources().getDrawable(R.drawable.fundo));

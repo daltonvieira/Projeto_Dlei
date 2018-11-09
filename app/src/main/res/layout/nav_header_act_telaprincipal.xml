@@ -19,7 +19,7 @@
         android:baselineAligned="false"
         android:contentDescription="@string/nav_header_desc"
         android:paddingTop="@dimen/nav_header_vertical_spacing"
-        app:srcCompat="@drawable/fotousuario" />
+        app:srcCompat="@drawable/img_usuario" />
 
     <TextView
         android:layout_width="wrap_content"

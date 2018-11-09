@@ -30,7 +30,7 @@ public class Fragmento_Principal extends Fragment {
             @Override
             public void onClick(View v) {
                 Intent it;
-                it = new Intent(getActivity(), Act_Solicitarcoleta.class);
+                it = new Intent(getActivity(), Qrcode.class);
                 startActivity(it);
             }
         });

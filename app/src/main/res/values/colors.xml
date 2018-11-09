@@ -7,4 +7,5 @@
     <color name ="color_de_fundo_botao">#33ffffff</color>
     <color name = "color_de_fundo_dos_icons">#ffcc00</color>
     <color name = "color_txts_historico_de_coleta">#000000</color>
+    <color name = "Color_de_BG_das_telas">#e1e1e1</color>
 </resources>

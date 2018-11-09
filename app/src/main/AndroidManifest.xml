@@ -6,7 +6,7 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@mipmap/ic_launcher_logo"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
@@ -55,8 +55,14 @@
             android:parentActivityName=".Act_telaprincipal"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme" />
-        <activity android:name=".Qrcode" />
-        <activity android:name=".Act_Informacao_catador"></activity>
+        <activity
+            android:name=".Qrcode"
+            android:parentActivityName=".Act_telaprincipal"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Act_Informacao_catador"
+            android:parentActivityName=".Qrcode"
+            android:screenOrientation="portrait" />
     </application>
 
 </manifest>
